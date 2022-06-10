@@ -18,6 +18,16 @@ export function ServicesSection() {
             description='Tipos variados de areia'
             bgUrl='/areia.webp'
           />
+          <MaterialCard
+            title='Elétrica'
+            description='Materiais elétricos'
+            bgUrl='/eletrica.png'
+          />
+          <MaterialCard
+            title='Hidráulica'
+            description='Materiais hidráulicos'
+            bgUrl='/hidraulica.png'
+          />
         </div>
       </div>
     </>
