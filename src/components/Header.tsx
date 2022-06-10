@@ -1,8 +1,5 @@
-import Link from "next/link";
-import { CgMenu } from "react-icons/cg";
-import { Menu } from "@headlessui/react";
 import { DropdownMenu } from "./DropdownMenu";
-import Image from "next/Image";
+import Image from "next/image";
 
 const linkClass =
   "cursor-pointer transition-all duration-200 text-gray-100 text-xl font-semibold hover:bg-zinc-100 hover:text-zinc-900 rounded-md min-w-16 px-2 h-8 flex justify-center items-center";
@@ -38,11 +35,9 @@ export function Header() {
             <a href='#services' onClick={handleClick} className={linkClass}>
               Serviços
             </a>
-            <a href='#team' onClick={handleClick} className={linkClass}>
-              Equipe
-            </a>
-            <a href='#contact' onClick={handleClick} className={linkClass}>
-              Contato
+
+            <a href='#localize' onClick={handleClick} className={linkClass}>
+              Informações
             </a>
           </nav>
         </div>
